@@ -1,0 +1,128 @@
+body {
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.progress{
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+.progress-done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: repeating-linear-gradient( 
+        to left, 
+        #0546e0,
+        #1172f9,
+        #4892f9);
+    box-shadow: 0 5px 5px -6px #0546e0, 0 3px 7px #1172f9;
+    border-radius: 20px;
+    color:#fff;
+    height: 100%;
+    width: 0;
+    transition: 1s ease 0.3s;
+}
+.input-container{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.b1{
+    top: 270px;
+   margin-left: -268px;
+    position: absolute;
+    font-family: sans-serif;
+font-weight:bold;
+}
+.a2{
+    position: absolute;
+    top: 270px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+
+.g3{
+    position: absolute;
+    top: 270px;
+    margin-left: 255px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+.h{
+    position: absolute;
+    top: 90px;
+    left: 368px;
+    font-weight: bold;
+}
+@media(max-width:2560px) {
+   .h{ position: absolute;
+    top: 80px;
+    left: 1127px;}
+    
+}
+@media (max-width:1440px) {
+    .h{
+        position: absolute;
+        top: 90px;
+        left: 565px;
+        font-weight: bold;
+    }
+}
+    @media (max-width:1024px) {
+        .h{
+            position: absolute;
+            top: 90px;
+            left: 368px;
+            font-weight: bold;
+        }
+        .b1,.a2,.g3{
+            position: absolute;
+            top: 255px;
+        }
+    
+}
+@media (max-width:768px) {
+    .h{
+        position: absolute;
+        top: 90px;
+        left: 240px;
+        font-weight: bold;
+    }
+
+}
+@media (max-width:425px) {
+    .h{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+        font-weight: bold;
+    }
+
+}
+@media (max-width:375px) {
+    .h{
+        position: absolute;
+        top: 90px;
+        left: 44px;
+        font-weight: bold;
+    }
+
+}
+@media (max-width:375px) {
+    .h{
+        position: absolute;
+        top: 90px;
+        left: 44px;
+        font-weight: bold;
+    }
+
+}
+
+
